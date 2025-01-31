@@ -1,0 +1,169 @@
+@font-face {
+    font-family: Heligthon Signature;
+    src: url(./Fonts/Heligthon\ Signature.otf);
+  }
+  @font-face {
+    font-family: cocogoose;
+    src: url(./Fonts/Cocogoose-Classic-Medium-trial.ttf);
+  }
+   @font-face{
+    font-family: Manstein;
+    src: url(./Fonts/Manstein.ttf);
+   }
+   @font-face{
+    font-family: DAYROM;
+    src: url(./Fonts/DAYROM__.ttf);
+   }
+   @font-face {
+    font-family: amsterdam;
+    src: url(./Fonts/Amsterdam.ttf);
+   }
+    /* ----------------------------------------- NAVBAR CSS ----------------------------------------- */
+    .dropdown-menu{
+        background-color: rgb(5, 54, 54);
+      }
+      .dropdown-menu a{
+        color: white;
+      }
+      .navbar-brand{
+        font-size: 35px;
+        font-family: 'Brush Script MT', cursive;
+      }
+      .nav-item{
+        font-size: 20px;
+      }
+    #navbarSupportedContent ul{
+      margin-left: 30px;
+    }
+    .collapse ul{
+      gap: 20px;
+    }
+    .navbar{
+      background-color: transparent;
+    }
+    .navbar img{
+      margin-left: 30px;
+    }
+/* ----------------------------------------- FORM CSS ----------------------------------------- */
+h1{
+    text-align: center;
+    color: rgba(5, 5, 82, 0.925);
+    margin-top: 30px;
+    font-family: Heligthon Signature;
+    font-size: 45px;
+    margin-bottom: -20px;
+}
+.flex input{
+    width: 350px;
+}
+#event-box{
+  width: 200px;
+}
+.btn{
+    width: 200px;
+    background-color: rgb(5, 54, 54);
+    color: white;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    color:  rgb(5, 54, 54);
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
+}
+#Event{
+    width: 350px;
+    height: 150px;
+}#country{
+    width: 200px;
+}
+form{
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-top: -20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+/* ----------------------------------------- OFF CANVAS CSS ----------------------------------------- */
+.offcanvas-body{
+    color: black;
+    text-align: left;
+  }
+  .headers p {
+    text-align: left;
+  }
+  .headers h2{
+    font-size: 28px;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-align: left;
+  }
+  #pp-heading{
+    font-family: Heligthon Signature;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  /* ----------------------------------------- FORM MEDIA QUERY ----------------------------------------- */
+  @media (max-width: 1400px){
+    form{
+      margin-left: 0;
+      width: 100%;
+  }
+  }
+  @media (max-width: 768px){
+    form{
+      margin-left: 0;
+      width: 100%;
+  }
+  }
+  @media (max-width: 480px){
+    form{
+      margin-left: 0;
+      width: 100%;
+  }
+  }
+  /* ----------------------------------------- FOOTER CSS ----------------------------------------- */
+  .container1 {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer{
+    background-color: rgb(5, 54, 54);
+    color: white;
+  }
+  .socials{
+    margin-top: 20px;
+    display: flex;
+    margin-right: 80px;
+  }
+  .socials a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+  }
+  .socials ul li{
+    list-style-type: none;
+  }
+  .footer-holder{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-holder img{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .footer p{
+    text-align: center;
+  }
+  #tts-form{
+    text-decoration: underline;
+  }
+  .container {
+      margin-top: 20px;
+  }

@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Heligthon Signature;
+    src: url(./Fonts/Heligthon\ Signature.otf);
+  }
+  @font-face {
+    font-family: cocogoose;
+    src: url(./Fonts/Cocogoose-Classic-Medium-trial.ttf);
+  }
+   @font-face{
+    font-family: Manstein;
+    src: url(./Fonts/Manstein.ttf);
+   }
+   @font-face{
+    font-family: DAYROM;
+    src: url(./Fonts/DAYROM__.ttf);
+   }
+   @font-face {
+    font-family: amsterdam;
+    src: url(./Fonts/Amsterdam.ttf);
+   }
+   /* ----------------------------------------- NAVBAR CSS ----------------------------------------- */
+     .dropdown-menu{
+      background-color: rgb(5, 54, 54);
+    }
+    .dropdown-menu a{
+      color: white;
+    }
+    .navbar-brand{
+      font-size: 35px;
+      font-family: 'Brush Script MT', cursive;
+    }
+    .nav-item{
+      font-size: 20px;
+    }
+  #navbarSupportedContent ul{
+    margin-left: 30px;
+  }
+  .collapse ul{
+    gap: 20px;
+  }
+  .navbar{
+    background-color: transparent;
+  }
+  .navbar img{
+    margin-left: 30px;
+  }
+  /* ----------------------------------------- MAIN PAGE CSS ----------------------------------------- */
+  .mainpage{
+    margin-top: 50px;
+    margin-left: 300px;
+  }
+  .sections{
+    display: flex;
+    padding: 20px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+  }
+  .sections img{
+    width: 250px;
+    height: 200px;
+    margin-left: 50px;
+    border-radius: 20px;
+  }
+  .sections h1{
+    font-family: Manstein;
+  }
+  .sections p{
+    width: 800px;
+  }
+  /* ----------------------------------------- OFF CANVAS CSS ----------------------------------------- */
+.offcanvas-body{
+    color: black;
+    text-align: left;
+  }
+  .headers p {
+    text-align: left;
+  }
+  .headers h2{
+    font-size: 28px;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-align: left;
+  }
+  #pp-heading{
+    font-family: Heligthon Signature;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  /* ----------------------------------------- FOOTER CSS ----------------------------------------- */
+  .container1 {
+      width: 1000px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer{
+      background-color: rgb(5, 54, 54);
+      color: white;
+    }
+    .socials{
+      margin-top: 20px;
+      display: flex;
+      margin-right: 80px;
+    }
+    .socials a{
+      text-decoration: none;
+      color: white;
+      list-style-type: none;
+    }
+    .socials ul li{
+      list-style-type: none;
+    }
+    .footer-holder{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer-holder img{
+      margin-left: 100px;
+      margin-top: 50px;
+    }
+    .footer p{
+      text-align: center;
+    }
+    #tts-form{
+      text-decoration: underline;
+    }
+    .container {
+        margin-top: 20px;
+    }
+  /* ----------------------------------------- MEDIA QUERY ----------------------------------------- */
+@media (max-width: 1400px){
+    .mainpage{
+        margin-top: 50px;
+        margin-left: 5px;
+      }
+      .sections p{
+        width: 500px;
+      }
+      .sections img{
+        margin-left: 10px;
+      }
+    }
+    @media (max-width: 768px){
+        .mainpage{
+            margin-top: 50px;
+            margin-left: 5px;
+          }
+          .sections p{
+            width: 300px;
+          }
+          .sections img{
+            margin-left: 10px;
+          }
+    }
+    @media (max-width: 480px){
+        .mainpage{
+            margin-top: 50px;
+            margin-left: 5px;
+          }
+          .sections p{
+            width: 300px;
+          }
+          .sections img{
+            margin-left: 10px;
+          }
+    }

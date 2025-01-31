@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LV - Share Your Experience!</title>
+     <!-- Connected CDNS  -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://use.typekit.net/ogf4rbi.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Connected Web-sheets Links -->
+    <link rel="stylesheet" href="./ttsstyle.css">
+</head>
+<body>
+  <!-------------------------------------------------- NAVBAR -------------------------------------------------->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <a href="./home.html"><img src="./imgs/LV logo bg removed.png" alt="" width="100%" height="50px"></a>
+          </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Fleets
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./explore.html">Explore Our Fleets</a></li>
+              <li><a class="dropdown-item" href="./booking_page.html">Book Your Fleet</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./packages.html">Packages</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./events.html">Hosted Events</a></li>
+              <li><a class="dropdown-item" href="./services.html">Services</a></li>
+              <li><a class="dropdown-item" href="./contact.html">Contact Us</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-------------------------------------------------- FORM -------------------------------------------------->
+    <h1>Share Your Experience!</h1>
+    <br>
+    <br>
+    <br>
+    <form>
+      <div class="flex" id="top-flex">
+        <div class="mb-3">
+          <label for="first name" class="form-label">First name</label>
+          <input type="first name" class="form-control" id="first name">
+        </div>
+          <div class="mb-3">
+            <label for="Last name" class="form-label">Last name</label>
+            <input type="Last name" class="form-control" id="Last name">
+          </div>
+          </div>
+        </div>
+        <div class="flex">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Name Your Fleet: </label>
+          <input type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+      </div>
+        <div>
+          <label for="exampleInputPassword1" class="form-label">Country</label>
+          <select class="form-select" aria-label="Default select example" id="country">
+            <option selected>-</option>
+            <option value="1">Argentina</option>
+            <option value="2">Australia</option>
+            <option value="3">Brazil</option>
+            <option value="4">Canada</option>
+            <option value="5">China</option>
+            <option value="6">France</option>
+            <option value="7">Germany</option>
+            <option value="8">India</option>
+            <option value="9">Italy</option>
+            <option value="10">Japan</option>
+            <option value="11">Mexico</option>
+            <option value="12">Pakistan</option>
+            <option value="13">Russia</option>
+            <option value="14">Saudi Arabia</option>
+            <option value="15">South Africa</option>
+            <option value="16">South Korea</option>
+            <option value="17">Spain</option>
+            <option value="18">Turkey</option>
+            <option value="19">United Kingdom</option>
+            <option value="20">United States</option>
+          </select>
+        </div>
+          <div class="mb-3">
+            <label for="When is the Event" class="form-label" >Describe Your Exprience</label>
+            <input type="text" class="form-control" id="Event" ></div>
+            <div class="flex">
+            <div>
+              <label for="When is the Event" class="form-label">How long was your event?</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>-</option>
+                    <option value="1">1 day</option>
+                    <option value="2">2 days</option>
+                    <option value="3">3 days</option>
+                    <option value="3">1 week</option>
+                    <option value="3">2 weeks</option>
+                    <option value="3">3 weeks</option>
+                    <option value="3">More..</option>
+                  </select>
+                  </div>
+                  <div>
+                    <label for="When is the Event" class="form-label">When was the Event</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>-</option>
+                        <option value="1">Wedding</option>
+                        <option value="2">Birthday party</option>
+                        <option value="3">Corporate Events</option>
+                        <option value="3">Other</option>
+                      </select></div>
+                    </div>
+                      <br>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <!-------------------------------------------------- FOOTER -------------------------------------------------->
+    <footer class="footer mt-auto py-3 ">
+      <div class="footer-holder">
+        <div class="container1">
+           <div class="socials">
+              <ul>
+                <h3>Socials</h3>
+                <a href="./home.html"><li>Home</li></a>
+                 <a href="./about.html"><li>About</li></a>
+                <a href="./packages.html"><li>Packages</li></a>
+                <a href="">Fleets
+                  <ul>
+                    <a href="./explore.html"><li>- Explore Our Fleets</li></a>
+                    <a href="./booking_page.html"><li>- Book Your Fleet</li></a>
+                  </ul>
+                </a>
+                <br>
+                <li>Find us</li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </ul>
+           </div>
+           <div class="socials">
+            <ul>
+             <h3>Reach Us</h3>
+             <a href=""><li>Phone: +92 0330-1234-727</li></a> 
+             <a href=""><li>Mail: luxuryvoyages@gamil.com</li></a>
+             <a href=""><li>Fax: (123)-456-7890</li></a>
+             <a href="" id="tts-form"><li>Talk to us!</li></a>
+            </ul>
+           </div>
+           <div class="socials">
+            <ul>
+              <h3>More</h3>
+              <a href="./events.html"><li>Events</li></a>
+              <a href="./TnC.html"><li><u>Terms & conditions</u></li></a>
+              <a href=""><li>
+                <a  type="text" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><u>Privacy Policy</u></a>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-body">
+                    <div class="privacypolicy">
+                      <h2 id="pp-heading">Our Privacy Policy</h2>
+                      <div class="headers">
+                        <h2>Information We Collect</h2>
+                        <p >We may collect personal information directly from you, automatically through our website, or from third parties. The types of information we may collect include: </p>
+                        <p><strong>Personal Information: </strong>Name, Email Address, Phone Number,Payment Details (i.e., credit card information), Address Details for billings and bookings. <br> <strong>Non-Personal Information: </strong> Browser type & version, Device information, IP Address, Website usage statistics.
+                        </p>
+                      </div>
+                      <div class="headers">
+                        <h2>How We Use Your Information</h2>
+                        <p><strong>We use the information we collect for the following purpose: </strong><br>
+                          To process and manage your bookings.<br>
+                          To communicate updates, confirmations, and customer support.<br>
+                          To personalize your experience on our website.<br>
+                          To process payments securely.<br>
+                          To comply with legal obligations and prevent fraudulent activities.<br>
+                        </p>
+                      </div>
+                      <div class="headers">
+                        <h2>Sharing Your Information</h2>
+                        <p><strong>We do not sell or rent your personal information to third parties. However, we may share your information in the following circumstances: </strong><br>
+                          With service providers who help us deliver our services (e.g., payment processors, yacht operators).<br>
+                          To comply with legal obligations, enforce our policies, or protect our rights.<br>
+                          In connection with business transactions such as mergers, acquisitions, or asset sales.<br>
+                        </p>
+                      </div>
+                      <div class="headers">
+                        <h2>Cookies and Tracking Technologies</h2>
+                        <p>Our website uses cookies to enhance user experience and analyze site traffic. By using our site, you consent to the use of cookies.><br>
+                        </p>
+                      </div>
+                      <div class="headers">
+                        <h2>Third-Party Links</h2>
+                        <p>Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of these websites.<br>
+                        </p>
+                      </div>
+                      <div class="headers">
+                        <h2>Data Security</h2>
+                        <p>We use industry-standard security measures to protect your personal information. However, no data transmission or storage can be guaranteed 100% secure. Please use caution when submitting sensitive information online.<br>
+                        </p>
+                      </div>
+                      <div class="headers">
+                        <h2>Updates to This Policy</h2>
+                        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with the updated date. Your continued use of our services constitutes acceptance of the updated policy.<br>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div></li></a>
+              <a href="./services.html"><li>Services</li></a>
+              <a href="./contact.html"><li>Contact Us</li></a>
+            </ul>
+           </div>
+          </div>
+          <div class="logo-img">
+            <img src="./imgs/inverted logo bg removed.png" alt="" width="200px">
+          </div>
+        </div>
+      </div>
+        <p>© 2025 Luxury Voyages, Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>

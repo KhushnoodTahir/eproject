@@ -1,0 +1,304 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+@font-face {
+  font-family: Heligthon Signature;
+  src: url(./Fonts/Heligthon\ Signature.otf);
+}
+@font-face {
+  font-family: cocogoose;
+  src: url(./Fonts/Cocogoose-Classic-Medium-trial.ttf);
+}
+ @font-face{
+  font-family: Manstein;
+  src: url(./Fonts/Manstein.ttf);
+ }
+ @font-face{
+  font-family: DAYROM;
+  src: url(./Fonts/DAYROM__.ttf);
+ }
+ @font-face {
+  font-family: amsterdam;
+  src: url(./Fonts/Amsterdam.ttf);
+ }
+ @font-face {
+  font-family: birthday;
+  src: url(./Fonts/BirthdaysandParties.ttf);
+ }
+ /* ----------------------------------------- NAVBAR CSS ----------------------------------------- */
+   .dropdown-menu{
+    background-color: rgb(5, 54, 54);
+  }
+  .dropdown-menu a{
+    color: white;
+  }
+  .navbar-brand{
+    font-size: 35px;
+    font-family: 'Brush Script MT', cursive;
+  }
+  .nav-item{
+    font-size: 20px;
+  }
+#navbarSupportedContent ul{
+  margin-left: 30px;
+}
+.collapse ul{
+  gap: 20px;
+}
+.navbar{
+  background-color: transparent;
+}
+.navbar img{
+  margin-left: 30px;
+}
+/* ----------------------------------------- CAROUSEL CSS ----------------------------------------- */
+.carousel{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.carousel-item img{
+    width: 800px;
+    height: 400px;
+}
+/* ----------------------------------------- CARD CSS ----------------------------------------- */
+.spec-card, .amenities-card {
+ transition: transform 0.3s, box-shadow 0.3s;
+}
+.spec-card:hover, .amenities-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}      
+.spec-card, .amenities-card {
+margin-bottom: 20px;
+}
+.card-title {
+font-size: 1.2rem;
+}
+.container {
+margin-top: 30px;
+}
+.card-body{
+height: 440px;
+}
+.card-body ul {
+  padding-left: 0;
+}
+.card-body ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  list-style:disc;
+  margin-left: 10px;
+}
+img.img-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.card {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.card-body {
+  padding: 20px;
+}
+.card-title {
+  font-size: 1.4rem;
+  color:  rgb(255, 255, 255);
+  background-color:  rgb(7, 68, 68);
+  padding: 2px 20px;
+  border-radius: 2px;
+}
+.card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.card ul li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.spec-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.spec-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.row .col-md-4 {
+  margin-bottom: 20px;
+}
+/* ----------------------------------------- FORM CSS ----------------------------------------- */
+form{
+border: 1px solid rgb(202, 187, 187);
+padding: 10px 50px 50px 50px;
+border-radius: 10px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+#form-heading{
+  font-size: 1.8rem;
+  margin-top: 30px;
+  color: #343a40;  
+}
+.row h1 {
+    font-size: 100px;
+    color:  rgb(7, 68, 68);
+    font-family: amsterdam;
+    margin-bottom: -20px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+#para-heading{
+    font-size: 1.8rem;
+    margin-top: 50px;
+    color: #343a40;
+    font-family:'Times New Roman', Times, serif;
+}
+.row p{
+    font-family: DAYROM;
+    font-size: 20px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group label {
+    font-weight: bold;
+}
+.form-control {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-primary {
+    background-color: rgb(5, 54, 54);
+    border-color: rgb(5, 54, 54);
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: rgb(7, 68, 68);
+    border-color: rgb(5, 54, 54);
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+    }
+
+    .col-md-8 {
+        margin-bottom: 30px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+}
+
+/* ----------------------------------------- OFF CANVAS CSS ----------------------------------------- */
+.offcanvas-body{
+  color: black;
+  text-align: left;
+}
+.headers p {
+  text-align: left;
+}
+.headers h2{
+  font-size: 28px;
+  margin-top: 30px;
+  text-decoration: underline;
+  text-align: left;
+}
+#pp-heading{
+  font-family: Heligthon Signature;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/* ----------------------------------------- MEDIA QUERY ----------------------------------------- */
+@media (max-width: 1400px){
+.carousel{
+  width: 600px;
+  height: 300px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.carousel-item img{
+  width: 600px;
+  height: 300px;
+}
+}
+@media (max-width: 768px){
+.carousel{
+  width: 600px;
+  height: 300px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.carousel-item img{
+  width: 600px;
+  height: 300px;
+}
+}
+@media (max-width: 480px){
+.carousel{
+  width: 400px;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -10px;
+}
+.carousel-item img{
+  width: 400px;
+  height: 200px;
+}
+}
+/* ----------------------------------------- FOOTER CSS ----------------------------------------- */
+.container1 {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer{
+  background-color: rgb(5, 54, 54);
+  color: white;
+}
+.socials{
+  margin-top: 20px;
+  display: flex;
+  margin-right: 80px;
+}
+.socials a{
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+.socials ul li{
+  list-style-type: none;
+}
+.footer-holder{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-holder img{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.footer p{
+  text-align: center;
+}
+#tts-form{
+  text-decoration: underline;
+}
+.container {
+    margin-top: 20px;
+}

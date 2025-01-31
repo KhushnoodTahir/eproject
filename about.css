@@ -1,0 +1,248 @@
+@font-face {
+    font-family: Heligthon Signature;
+    src: url(./Fonts/Heligthon\ Signature.otf);
+  }
+  @font-face {
+    font-family: cocogoose;
+    src: url(./Fonts/Cocogoose-Classic-Medium-trial.ttf);
+  }
+   @font-face{
+    font-family: Manstein;
+    src: url(./Fonts/Manstein.ttf);
+   }
+   @font-face{
+    font-family: DAYROM;
+    src: url(./Fonts/DAYROM__.ttf);
+   }
+   @font-face {
+    font-family: amsterdam;
+    src: url(./Fonts/Amsterdam.ttf);
+   }
+   @font-face {
+    font-family: birthday;
+    src: url(./Fonts/BirthdaysandParties.ttf);
+   }
+   /* ----------------------------------------- NAVBAR CSS ----------------------------------------- */
+     .dropdown-menu{
+      background-color: rgb(5, 54, 54);
+    }
+    .dropdown-menu a{
+      color: white;
+    }
+    .navbar-brand{
+      font-size: 35px;
+      font-family: 'Brush Script MT', cursive;
+    }
+    .nav-item{
+      font-size: 20px;
+    }
+  #navbarSupportedContent ul{
+    margin-left: 30px;
+  }
+  .collapse ul{
+    gap: 20px;
+  }
+  .navbar{
+    background-color: transparent;
+  }
+  .navbar img{
+    margin-left: 30px;
+  }
+   /* ----------------------------------------- MAIN PAGE CSS ----------------------------------------- */
+
+   .headers{
+    text-align: center;
+   }
+   .headers h1{
+    text-align: center;
+    font-family: Heligthon Signature;
+    margin-top: 50px;
+   }
+   .headers p{
+    width: 900px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 450px;
+   }
+  .testimonial-section {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 300px;
+}
+
+.testimonial-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.testimonial-section p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.testimonial h3 {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.testimonial span {
+    display: block;
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.stars {
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .testimonials {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* ----------------------------------------- MEDIA QUERY ----------------------------------------- */
+@media (max-width: 1400px){
+    .testimonial-section{
+        margin-left: 0px;
+    }
+    .headers{
+        margin-left: 0px;
+    }
+    .headers p{
+        width: 750px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+        margin-left: 100px;
+       }
+    }
+    @media (max-width: 768px){
+        .headers{
+            margin-left: 0px;
+        }
+        .headers p{
+            width: 550px;
+            margin-bottom: 50px;
+            margin-top: 30px;
+            margin-left: 100px;
+           }
+    }
+    @media (max-width: 480px){
+        .testimonial-section{
+            margin-left: 0px;
+        }
+        .headers{
+            margin-left: 0px;
+        }
+        .headers p{
+            width: 350px;
+            margin-bottom: 50px;
+            margin-top: 30px;
+            margin-left: 20px;
+           }
+    }
+    /* ----------------------------------------- OFF CANVAS CSS ----------------------------------------- */
+.offcanvas-body{
+    color: black;
+    text-align: left;
+  }
+  .headers p {
+    text-align: left;
+  }
+  .headers h2{
+    font-size: 28px;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-align: left;
+  }
+  #pp-heading{
+    font-family: Heligthon Signature;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  /* ----------------------------------------- FOOTER CSS ----------------------------------------- */
+  .container1 {
+      width: 1000px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer{
+      background-color: rgb(5, 54, 54);
+      color: white;
+    }
+    .socials{
+      margin-top: 20px;
+      display: flex;
+      margin-right: 80px;
+    }
+    .socials a{
+      text-decoration: none;
+      color: white;
+      list-style-type: none;
+    }
+    .socials ul li{
+      list-style-type: none;
+    }
+    .footer-holder{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer-holder img{
+      margin-left: 100px;
+      margin-top: 50px;
+    }
+    .footer p{
+      text-align: center;
+    }
+    #tts-form{
+      text-decoration: underline;
+    }
+    .container {
+        margin-top: 20px;
+    }
+
+    
